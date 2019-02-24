@@ -1,3 +1,5 @@
-<p >
-  value works!
+<!-- structural directives, chains the object model in some way-->
+<p *ngFor="let value of values">
+  <!-- using interpolation to display values-->
+   {{value.id}}, {{value.name}}
 </p>
